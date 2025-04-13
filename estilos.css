@@ -58,6 +58,10 @@ body {
     justify-content: center;
     
 }
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
 
 .texto:hover
 {
