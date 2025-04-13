@@ -1,0 +1,68 @@
+.hover-container
+{
+    display: inline-block;
+    position: relative;
+}
+.texto-grande
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #e9c794;
+    align-items: center;
+    text-align: center;
+    font-size: 4rem;
+    color: #fcfa9b;
+    letter-spacing: 0.4em;
+    display: flex;
+    position: static;
+    transition: transform 0.3s ease-out;
+    font-family: 'arial',sans-serif;
+
+}
+.texto-grande:hover
+{
+    text-align: center;
+    transform: scale(1.2);
+    font-size: 4rem;
+    color: #fcfa9b;
+    text-shadow: 5px 5px 0 #9280bb, 10px 10px 0 #59d3a0;
+    animation: texto-grande 2s infinite;
+
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+        height: 100vh;
+        min-height: 100vh;
+        background-image: url(fondo1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+}
+.caja
+{
+    max-width: 1010px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(219, 130, 127, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 9px 40px rgba(190, 113, 23, 0.815);
+    justify-content: center;
+    
+}
+
+.texto:hover
+{
+    opacity: 1;
+    color: rgba(207, 19, 19, 0.712);
+    filter: blur(20px);
+
+}
